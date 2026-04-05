@@ -1,0 +1,9 @@
+name: Safe-Chest
+version: 1.2.6
+main: com.safeChest.SafeChest
+api-version: 1.21
+author: Wilkcraft
+
+commands:
+  sc:
+    description: Main SafeChest command
