@@ -79,13 +79,14 @@ Example entry:
 
 ```yaml
 chests:
-  world,x100,y64,z200:
-    name: "MyTreasure"
-    owner: "uuid-of-player"
+  MyTreasure:
+    owner: uuid-of-player
+    locations:
+    - world,10,-22,-16
+    - world,11,-22,-16
     friends:
-      - "uuid-of-friend1"
-      - "uuid-of-friend2"
-    isDoubleChest: false
+    - uuid-of-friend1
+    - uuid-of-friend2
 ```
 
 ## 📝 Notes
@@ -126,7 +127,7 @@ Developed by **Wilkcraft**
 
 ## 📄 License
 
-This project is open-source. You may modify and distribute it following the repository license.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
